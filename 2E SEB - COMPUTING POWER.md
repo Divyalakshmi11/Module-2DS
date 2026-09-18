@@ -17,12 +17,20 @@ To write a Python program to compute the power of a given number using an approp
 5. Print the result using the `print()` function, displaying the power in a formatted output.  
 6. Terminate the program.
 
----
+
 
 ### PROGRAM
-
 ```
+num = int(input())
+sum = 0
+for i in range(1, num + 1):
+    if i % 2 != 0:
+        sum += i
+
+print(f"The sum of the series = {sum}")
 ```
 ### OUTPUT
+<img width="728" height="241" alt="image" src="https://github.com/user-attachments/assets/b5ffe5cc-5797-4bac-bcad-ffe16a85c4e4" />
 
 ### RESULT
+Thus the program to calculate the sum of the odd number series from 1 to N using a loop has been implemented and executed successfully.
