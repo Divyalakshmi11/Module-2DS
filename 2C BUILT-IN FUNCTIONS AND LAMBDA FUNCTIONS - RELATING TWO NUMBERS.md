@@ -24,6 +24,8 @@ To write a Python program to check the relation between two numbers — whether 
 ### PROGRAM
 
 ```
+#Name : DivyaLakshmi S
+#Reg no:212223020007
 compare = lambda a, b: (
     f"{a} is greater than {b}" if a > b 
     else (f"{a} is smaller than {b}" if a < b 
