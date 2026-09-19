@@ -21,16 +21,13 @@ To write a Python program to compute the power of a given number using an approp
 
 ### PROGRAM
 ```
-num = int(input())
-sum = 0
-for i in range(1, num + 1):
-    if i % 2 != 0:
-        sum += i
-
-print(f"The sum of the series = {sum}")
+x=int(input())
+y=int(input())
+z=pow(x,y)
+print(z)
 ```
 ### OUTPUT
-<img width="728" height="241" alt="image" src="https://github.com/user-attachments/assets/b5ffe5cc-5797-4bac-bcad-ffe16a85c4e4" />
+<img width="700" height="296" alt="image" src="https://github.com/user-attachments/assets/2b18b2d5-01b3-4ddd-a3a6-4a0fa93ac299" />
 
 ### RESULT
-Thus the program to calculate the sum of the odd number series from 1 to N using a loop has been implemented and executed successfully.
+Thus the python program to compute the power of a given number using an appropriate built-in function has been implemented and executed successfully.
